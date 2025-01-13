@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* কালো ব্যাকগ্রাউন্ড */
+  color: #ffffff;
+}
+
+.app-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1e1e1e; /* ডার্ক গ্রে ব্যাকগ্রাউন্ড */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+}
+
+.app-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.app-details h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.app-details p {
+  margin: 5px 0;
+  color: #aaa;
+}
+
+.app-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.info-item {
+  text-align: center;
+}
+
+.info-item span {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.screenshots {
+  margin: 20px 0;
+}
+
+.screenshots h2 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.screenshot-slider {
+  display: flex; /* Flexbox ব্যবহার করা হয়েছে */
+  overflow-x: auto; /* অনুভূমিকভাবে স্ক্রল করতে সক্ষম */
+  gap: 10px; /* ছবিগুলোর মাঝে ফাঁক */
+  scrollbar-width: thin; /* স্ক্রলবার সরু হবে */
+}
+
+.screenshot-slider img {
+  width: 150px;
+  height: 290px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  flex-shrink: 0; /* ছবিগুলো সংকুচিত হবে না */
+}
+
+.screenshot-slider::-webkit-scrollbar {
+  height: 6px;
+}
+
+.screenshot-slider::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+.screenshot-slider::-webkit-scrollbar-track {
+  background: #222;
+}
+
+}
+
+.screenshots h2 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.screenshot-slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.screenshot-slider img {
+  width: 150px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.install-btn {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #1877f2;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.install-btn:hover {
+  background-color: #155db8;
+}
